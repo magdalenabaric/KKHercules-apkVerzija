@@ -1,0 +1,110 @@
+
+.container{
+    position: absolute;
+    z-index: 999;
+    top: 20%;
+    padding-left: 40%;
+}
+
+.logintitle{
+    color: white;
+    margin-left: 18%;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.form-base{
+    margin-bottom:30px;
+    width: 50%;
+}
+
+.form-control{
+    border-color: white;
+    background: transparent;
+    border-width: 4px;
+    color: white;
+    font-weight: bold;
+}
+
+.form-base input::placeholder {
+    color: white;
+    font-weight: bold;
+}
+
+
+.loginpicture{
+    width: 100vw; /* Širina slike je 100% širine zaslona */
+    height: 100vh;
+    object-fit: cover;
+}
+
+.registrationlink a{
+    margin-left: 43%;
+    text-decoration: none;
+    color: rgb(195, 195, 195);
+}
+.registrationlink a:hover{
+    color: white;
+}
+
+.form-base input:focus{
+    background-color: white;
+    border-color: white;
+    font-weight: bold;
+}
+
+.btn{
+    margin-left: 16%;
+    margin-top: 4%;
+    background-color: white;
+    color: black;
+    border-color: white;
+    width: 20%;
+    font-weight: bold;
+}
+
+.btn:hover{
+    background-color: transparent;
+    border-color: white;
+    border-width: 4px;
+}
+
+.registertitle{
+    margin-left: 14%;
+    color: white;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.loginlink a{
+    margin-left: 43%;
+    text-decoration: none;
+    color: rgb(195, 195, 195);
+}
+
+.loginlink a:hover{
+    color: white;
+}
+
+nav{
+    z-index: 999;
+    position: fixed;
+    background-color: #0000003b;
+    width: 100%;
+    height: 10%;
+    display: flex;
+ 
+}
+
+.logo{
+    height: 80px;
+    padding-left: 10%;
+}
+
+.error_message{
+    color: rgb(211, 211, 211);
+}
+
+.info-message{
+    position: absolute;
+}
